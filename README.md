@@ -70,13 +70,9 @@ Every customer is assigned to the month of their first purchase, then tracked by
 
 ---
 
-## Key findings
+![Dashboard](dashboard/dashboard(1).png)
 
-1. **The first repeat purchase is the bottleneck.** 77% of customers do not return after month 0.
-2. **Returning customers generate 85.5% of revenue** while making up 79% of monthly actives.
-3. **14% of customers generate 65% of revenue.** Losing a small number of accounts would hurt disproportionately.
-4. **28% of customers bought exactly once** and account for 3% of revenue.
-
+---
 ## Recommendations
 
 **Spend on the second purchase, not the first.** The steepest part of every cohort curve is month 0 to month 1. Anything that moves that number moves everything downstream.
