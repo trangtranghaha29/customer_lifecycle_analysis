@@ -108,14 +108,14 @@ Every customer is assigned to the month of their first purchase, then tracked by
 ```
 ├── README.md
 ├── excel/
-│   ├── cleaning_log_sheet1.png
-│   └── cleaning_steps.md
+│   ├── cleaning_sheet.png
+│   └── retail_clean.zip
 ├── sql/
-│   ├── 01_verify_clean.sql
-│   ├── 02_exploration.sql
-│   └── 03_cohort_retention.sql
+│   ├── 1_data_quality_check.sql
+│   ├── 2_exploration.sql
+│   └── 3_cohort.sql
 ├── notebooks/
-│   └── retention_curve.ipynb
+│   └── online_retail.ipynb
 ├── dashboard/
     └── online_retail.pbix
 ```
@@ -123,8 +123,8 @@ Every customer is assigned to the month of their first purchase, then tracked by
 ## How to run
 
 1. Download `online_retail_II.xlsx` from the UCI link above
-2. Clean both sheets in Excel following `excel/cleaning_steps.md`, export as CSV
+2. Clean both sheets in Excel following `excel/retail_clean.zip`, export as CSV
 3. Load into BigQuery as `retail_clean`
-4. Run `sql/01` through `sql/03`
-5. Export the cohort table and open `notebooks/retention_curve.ipynb`
+4. Run `sql/1` through `sql/3`
+5. Export the cohort table and open `notebooks/online_retail.ipynb`
 ---
